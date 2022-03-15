@@ -59,6 +59,11 @@ nav a:hover {
   font-weight: bold;
 }
 
+#about-us {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
 .about-us {
   border-left: 5px #fce38a solid;
   padding-left: 50px;
