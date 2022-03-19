@@ -1,6 +1,6 @@
 body {
   background: white;
-  background-image: url(layered-waves-haikei.svg);
+  background-image: url("../images/layered-waves-thinner.svg");
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 100vh;

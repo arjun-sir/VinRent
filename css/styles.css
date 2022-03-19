@@ -135,6 +135,7 @@ footer a {
   color: #333;
   width: 250px;
   height: 100%;
+
 }
 
 .products {
@@ -142,12 +143,14 @@ footer a {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
+  
 }
 
 .products a {
   text-decoration: none;
   color: #333;
   transition: transform 0.2s ease-in;
+
 }
 
 .products a:hover {
