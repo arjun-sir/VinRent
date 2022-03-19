@@ -18,7 +18,6 @@ body {
   height: 100vh;
   line-height: 1.6;
   font-size: larger;
- background-image: url("../images/layered-waves-thinner.svg");
   background-repeat: no-repeat;
   background-size:cover;
   position: relative;
@@ -36,7 +35,7 @@ body {
   width: 100%;
   background-image: url("../images/home-bg2.jpg");
   background-size:cover;
-  margin-top: 90px;
+  margin-top: 0 px;
   top: 70px;
   animation: movedown 0.5s  linear 1;
 
@@ -162,4 +161,8 @@ letter-spacing: 1px
 }
 .landing-page button:hover {
   background: linear-gradient(135deg, var(--yellow), var(--lime));
+}
+
+.content h1{
+  font-size: 40px;
 }

@@ -116,12 +116,17 @@ footer div {
 }
 
 .socials img {
-  padding: 0 5px;
+  margin: 0 8px;
 }
 
 footer a {
   text-decoration: none;
   color: black;
+}
+
+.white-bg{
+  background-color: white;
+  border-radius: 50%;
 }
 
 /************ Bedding Page ************/
@@ -177,4 +182,114 @@ footer a {
 
 .img-cycle {
   margin: 0;
+}
+
+
+/************** RESPONSIVE ********/
+
+@media (max-width: 768px){
+
+  #rent-out{
+    width: 80%;
+    margin:0 auto;
+  }
+
+  nav{
+    float: none;
+    position: relative;
+    right:20px;
+  }
+
+  .founders img, .branding, .simar, .arjun{
+    float: none !important;
+  }
+
+  header{
+    position:static;
+    margin-bottom: -40px;
+  }
+
+  header li{
+    text-align:center;
+    display: block;
+    padding:10px;
+  }
+
+  .branding{
+    text-align: center;
+  }
+
+  .founders div{
+    width: 80% !important;
+    margin: 0 auto;
+  }
+
+  .founders img{
+    margin-left: 22.5%;
+    margin-bottom: 50px;
+  }
+
+  .arjun{
+    margin-bottom: -50px !important;
+  }
+
+  footer div{
+    margin-top:0;
+    flex-direction: column;
+  }
+
+  .socials{
+    flex-direction: row !important;
+    margin:20px;
+  }
+
+  .socials img{
+    margin: 0 20px;
+  }
+
+  #about-us{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .heading-rent h1{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .items{
+    margin: 30px 0;
+  }
+
+  .products{
+    grid-template-columns: 1fr;
+    margin-top:35px
+  }
+
+  .card{
+    width: 80%;
+    margin:20px auto;
+  }
+
+  .simar-form{
+    margin-top:-50px;
+    width: 80%;
+    margin: 0 auto;
+    background:none;
+    margin-bottom: 50px;;
+  }
+
+  .user-details{
+    flex-direction: column;
+  }
+
+  .user-details .input-box,
+  #category{
+    width: calc(100% - 15px);
+  }
+
+  .input-box input, .input-box select{
+    width: 100% !important;
+  }
+
 }
